@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>PRJ</projectKey>
+    <exportDate>2022-12-16 23:22:47 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="77138701" key="PRJ-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Patrícia Alcântara</createdBy>
+            <createdOn>2022-12-16 20:45:35 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar conta.]]></name>
+            <objective><![CDATA[Verificar funcionalidade de login.<br /><br />]]></objective>
+            <owner>70121:faf20891-e56a-4d3a-b0b0-35d1e9e868d3</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[123.456.789]]></defaultValue>
+                    <name><![CDATA[Servidor QA]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="plain">
+                <details><![CDATA[1. Cen&aacute;rio: Cliente sem cadastro deseja criar uma conta.<br /><br />Que o cliente esteja na tela de login<br /><br />N&atilde;o esteja cadastrado<br /><br />Clicar em criar conta.<br /><br />Ser&aacute; direcionado a cria&ccedil;&atilde;o de conta.<br /><br />2. Cen&aacute;rio: Cliente sem cadastro tenta fazer login.<br /><br />3. Cen&aacute;rio: Cliente com cadastro informa dados incorretos de acesso.]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
